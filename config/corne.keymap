@@ -30,12 +30,12 @@
 // |  F1  | F2   | F3   | F4   | F5   | F6         |   | F7   | F8  | F9   | F10  | F11 | F12   |
 // | Prev | Next | MUTE | VOL- | VOL+ | Play/Pause |   | LFT  | DWN |  UP  | RGT  | INS | PrtSc |
 // | BTCLR| BT1  | BT2  | BT3  | BT4  | BT5        |   | HOME | END | PgUp | PgDn | DEL |       |
-//                    | GUI |     | SPC |                  | ENT |     | ALT |
+//                    | GUI |     | SPC |                  | 한영 |     | ALT |
                         bindings = <
    &kp F1     &kp F2       &kp F3       &kp F4       &kp F5       &kp F6         &kp F7   &kp F8   &kp F9    &kp F10   &kp F11 &kp F12
    &kp C_PREV &kp C_NEXT   &kp C_MUTE   &kp C_VOL_DN &kp C_VOL_UP &kp C_PP       &kp LEFT &kp DOWN &kp UP    &kp RIGHT &kp INS &kp PSCRN
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp HOME &kp END  &kp PG_UP &kp PG_DN &kp DEL &trans
-                                    &kp LGUI     &trans       &kp SPACE             &kp RET  &trans   &kp RALT
+                                    &kp LGUI     &trans       &kp SPACE             &kp LANG1  &trans   &kp RALT
                         >;
                 };
 
