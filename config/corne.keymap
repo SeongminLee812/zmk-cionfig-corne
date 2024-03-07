@@ -11,17 +11,17 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_del {
             timeout-ms = <50>;
             key-positions = <39 40>;
             bindings = <&kp DEL>;
         };
-        combo_esc {
+        combo_lang {
             timeout-ms = <50>;
             key-positions = <15 16>;
             bindings = <&kp LANG1>;
         };
-        combo_esc {
+        combo_under {
             timeout-ms = <50>;
             key-positions = <22 23>;
             bindings = <&kp UNDER>;
