@@ -14,19 +14,19 @@
 
         combo_del {
             timeout-ms = <50>;
-            key-positions = <39 38>;
+            key-positions = <39 40>;
             bindings = <&kp DEL>;
         };
 
         combo_lang {
             timeout-ms = <50>;
-            key-positions = <15 14>;
+            key-positions = <15 16>;
             bindings = <&kp LANG1>;
         };
 
         combo_under {
             timeout-ms = <50>;
-            key-positions = <21 22>;
+            key-positions = <22 23>;
             bindings = <&kp UNDER>;
         };
     };
@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |                  | ENT |     | ALT |
 
             bindings = <
-&kp F1      &kp F2      &kp F3        &kp F4        &kp F5        &kp F6          &kp F7    &kp F8    &kp F9     &kp F10    &kp F11  &kp F12
-&kp C_PREV  &kp C_NEXT  &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP        &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp INS  &kp PSCRN
-&kp LSHIFT  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp HOME  &kp END   &kp PG_UP  &kp PG_DN  &kp DEL  &kp CAPS
-                                      &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
+&kp F1      &kp F2      &kp F3        &kp F4        &kp F5        &kp F6          &kp F7    &kp F8     &kp F9     &kp F10    &kp F11  &kp F12
+&kp C_PREV  &kp C_NEXT  &kp C_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP        &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp INS  &kp PSCRN
+&kp LSHIFT  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL  &kp CAPS
+                                      &kp LGUI      &trans        &kp SPACE       &kp RET   &trans     &kp RALT
             >;
         };
 
