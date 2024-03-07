@@ -13,19 +13,19 @@
         compatible = "zmk,combos";
 
         combo_del {
-            timeout-ms = <50>;
+            timeout-ms = <1000>;
             key-positions = <39 40>;
             bindings = <&kp DEL>;
         };
 
         combo_lang {
-            timeout-ms = <50>;
+            timeout-ms = <1000>;
             key-positions = <15 16>;
             bindings = <&kp LANG1>;
         };
 
         combo_under {
-            timeout-ms = <50>;
+            timeout-ms = <1000>;
             key-positions = <22 23>;
             bindings = <&kp UNDER>;
         };
