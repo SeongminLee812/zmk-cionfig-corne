@@ -30,6 +30,12 @@
             bindings = <&kp UNDER>;
         };
 
+        combo_cut {
+            bindings = <&kp LC(X)>;
+            timeout-ms = <40>;
+            key-positions = <26 27>;
+        };
+
         combo_copy {
             bindings = <&kp LC(C)>;
             timeout-ms = <40>;
@@ -42,16 +48,10 @@
             key-positions = <28 29>;
         };
 
-        combo_cut {
-            bindings = <&kp LC(X)>;
-            timeout-ms = <40>;
-            key-positions = <26 27>;
-        };
-
         combo_undo {
-            binding = <&kp LC(Z)>;
-            timeout-ms = <40>;
+            bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
+            timeout-ms = <40>;
         };
     };
 
@@ -98,7 +98,7 @@
 
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
-&kp LCTRL  &kp NUBS  &trans  &kp LBRC  &kp LPAR  &kp LBKT     &kp MINUS  &kp N4  &kp N5    &kp N6  &kp COLON   &kp SQT
+&kp LCTRL  &kp NUBS  &trans  &kp LBRC  &kp LPAR  &kp LBKT     &kp MINUS  &kp N4  &kp N5    &kp N6  &kp COLON  &kp SQT
 &kp LSHFT  &trans    &trans  &kp RBRC  &kp RPAR  &kp RBKT     &kp N0     &kp N1  &kp N2    &kp N3  &kp FSLH   &kp GRAVE
                              &kp LGUI  &trans    &kp SPACE    &kp RET    &trans  &kp RALT
             >;
