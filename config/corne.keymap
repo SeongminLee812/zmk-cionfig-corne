@@ -59,6 +59,11 @@
             key-positions = <19 20>;
             timeout-ms = <40>;
         };
+
+        combo_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
