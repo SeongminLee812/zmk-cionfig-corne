@@ -63,6 +63,7 @@
         combo_plus {
             bindings = <&kp PLUS>;
             key-positions = <7 8>;
+            timeout-ms = <40>;
         };
     };
 
