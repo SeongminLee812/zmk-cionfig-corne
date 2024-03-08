@@ -26,7 +26,7 @@
 
         combo_under {
             timeout-ms = <40>;
-            key-positions = <22 21>;
+            key-positions = <21 20>;
             bindings = <&kp UNDER>;
         };
 
@@ -52,6 +52,11 @@
             bindings = <&kp LC(Z)>;
             key-positions = <25 26>;
             timeout-ms = <40>;
+        };
+
+        combo_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <19 20>;
         };
     };
 
