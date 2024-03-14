@@ -65,6 +65,11 @@
             key-positions = <7 8>;
             timeout-ms = <40>;
         };
+
+        combo_caps {
+            bindings = <&kp CAPS>;
+            key-positions = <2 3>;
+        };
     };
 
     keymap {
